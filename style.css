@@ -64,7 +64,9 @@ body {
       background: #bbb; }
 
 #after-header-widgets {
-  display: flex; }
+  content: "";
+  display: table;
+  table-layout: fixed; }
   #after-header-widgets .widget {
     margin: 0;
     padding: 60px;
@@ -72,10 +74,11 @@ body {
     outline: 1px solid #aaa; }
   #after-header-widgets .widget:nth-of-type(1) {
     padding: 100px 0 75px;
-    flex: 2; }
+    width: 100%; }
   #after-header-widgets .widget:nth-of-type(2),
   #after-header-widgets .widget:nth-of-type(3) {
-    flex: 1; }
+    float: left;
+    width: 50%; }
 
 .entry-title {
   font-family: "Roboto Slab";
@@ -88,5 +91,3 @@ body {
 #main {
   margin: 0 auto;
   max-width: 1020px; }
-
-/*# sourceMappingURL=style.css.map */
