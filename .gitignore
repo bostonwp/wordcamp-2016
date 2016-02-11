@@ -1,0 +1,5 @@
+node_modules
+.sass-cache
+concept-v2.sketch
+logo-export.svg
+style.css.map

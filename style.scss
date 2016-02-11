@@ -1,0 +1,132 @@
+/**!
+ * Theme Name: Boston 2016
+ * Template: wordcamp-base-v2
+ */
+
+@import '../wordcamp-base-v2/style.css';
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic|Roboto+Slab);
+
+$font-sans: 'Roboto';
+$font-slab: 'Roboto Slab';
+
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1.6) {
+	font-size: ($sizeValue * 10) + px;
+	font-size: $sizeValue + rem;
+}
+
+@mixin hover-state {
+	&:hover, &:active, &:focus {
+		@content;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $font-sans;
+	@include font-size( 1.8 );
+	line-height: 1.6;
+}
+
+.site-header {
+	margin-top: 80px;
+}
+
+.site-header hgroup {
+	display: block;
+	height: 450px;
+	background: url('header.png') no-repeat center;
+	background-size: cover;
+	border-top: 1px solid transparent;
+}
+
+.site-title {
+	position: relative;
+	z-index: 10;
+	margin: 250px auto 0;
+	padding: 30px;
+	width: 465px;
+	background: white;
+
+	a {
+		display: block;
+		width: 415px;
+		height: 180px;
+		background: url( 'logo.svg' ) no-repeat center;
+		text-indent: -9999em;
+	}
+}
+
+.site-navigation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0 20px;
+	height: 80px;
+	background: #EEEEEE;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 40px;
+	
+	.admin-bar & {
+		top: 32px;
+	}
+	
+	a {
+		padding: 20px;
+		color: #666;
+		text-decoration: none;
+
+		@include hover-state {
+			color: #444;
+		}
+	}
+	
+	.callout {
+		float: right;
+		
+		a {
+			margin: 20px 10px;
+			padding: 0 10px;
+			background: #bbb;
+		}
+	}
+}
+
+#after-header-widgets {
+	display: flex;
+	.widget {
+		margin: 0;
+		padding: 60px;
+		text-align: center;
+
+		outline: 1px solid #aaa;
+	}
+	
+	.widget:nth-of-type(1) {
+		padding: 100px 0 75px;
+		flex: 2;
+	}
+
+	.widget:nth-of-type(2),
+	.widget:nth-of-type(3) {
+		flex: 1;
+	}
+}
+
+.entry-title {
+	font-family: $font-slab;
+	@include font-size( 2.8 );
+	line-height: 1.32143;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#main {
+	margin: 0 auto;
+	max-width: 1020px;
+}
