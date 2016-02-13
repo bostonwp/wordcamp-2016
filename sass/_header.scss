@@ -1,0 +1,65 @@
+.site-header {
+	margin-top: 80px;
+}
+
+.site-header hgroup {
+	display: block;
+	height: 450px;
+	background: url('header.png') no-repeat center;
+	background-size: cover;
+	border-top: 1px solid transparent;
+}
+
+.site-title {
+	position: relative;
+	z-index: 10;
+	margin: 250px auto 0;
+	padding: 30px;
+	width: 465px;
+	background: white;
+
+	a {
+		display: block;
+		width: 415px;
+		height: 180px;
+		background: url( 'logo.svg' ) no-repeat center;
+		text-indent: -9999em;
+	}
+}
+
+.site-navigation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0 20px;
+	height: 80px;
+	background: #EEEEEE;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 40px;
+
+	.admin-bar & {
+		top: 32px;
+	}
+
+	a {
+		padding: 20px;
+		color: #666;
+		text-decoration: none;
+
+		@include hover-state {
+			color: #444;
+		}
+	}
+
+	.callout {
+		float: right;
+
+		a {
+			margin: 20px 10px;
+			padding: 0 10px;
+			background: #bbb;
+		}
+	}
+}

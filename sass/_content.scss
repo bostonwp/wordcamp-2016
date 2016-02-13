@@ -1,0 +1,13 @@
+#main {
+	clear: both;
+	margin: 0 auto;
+	max-width: 1020px;
+}
+
+.entry-title {
+	font-family: $font-slab;
+	@include font-size( 2.8 );
+	line-height: 1.32143;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}

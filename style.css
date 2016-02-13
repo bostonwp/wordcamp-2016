@@ -64,9 +64,7 @@ body {
       background: #bbb; }
 
 #after-header-widgets {
-  content: "";
-  display: table;
-  table-layout: fixed; }
+  font-family: "Roboto Slab"; }
   #after-header-widgets .widget {
     margin: 0;
     padding: 60px;
@@ -80,6 +78,11 @@ body {
     float: left;
     width: 50%; }
 
+#main {
+  clear: both;
+  margin: 0 auto;
+  max-width: 1020px; }
+
 .entry-title {
   font-family: "Roboto Slab";
   font-size: 28px;
@@ -87,7 +90,3 @@ body {
   line-height: 1.32143;
   letter-spacing: 1px;
   text-transform: uppercase; }
-
-#main {
-  margin: 0 auto;
-  max-width: 1020px; }

@@ -1,0 +1,16 @@
+/**!
+ * Theme Name: Boston 2016
+ * Template: wordcamp-base-v2
+ */
+
+@import '../wordcamp-base-v2/style.css';
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic|Roboto+Slab);
+
+@import 'variables';
+@import 'mixins';
+@import 'typography';
+
+@import 'header';
+@import 'widgets';
+@import 'content';
+@import 'footer';
