@@ -5,13 +5,20 @@
 		margin: 0;
 		padding: 60px;
 		text-align: center;
-
-		outline: 1px solid #aaa;
+		color: white;
+		background: #aaa;
+		outline: 1px solid #a0a0a0;
+		p {
+			margin: 0
+		}
 	}
 
 	.widget:nth-of-type(1) {
 		padding: 100px 0 75px;
 		width: 100%;
+		@include font-size( 2.8 );
+		letter-spacing: 2px;
+		text-transform: uppercase;
 	}
 
 	.widget:nth-of-type(2),
@@ -19,4 +26,13 @@
 		float: left;
 		width: 50%;
 	}
+}
+
+.widget-title {
+	@include font-size( 2.0 );
+	margin-bottom: 20px;
+}
+
+form[id*="subscribe"] {
+	p { display: inline; }
 }

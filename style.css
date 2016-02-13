@@ -11,7 +11,63 @@ body {
   font-family: "Roboto";
   font-size: 18px;
   font-size: 1.8rem;
-  line-height: 1.6; }
+  line-height: 1.6;
+  background: #eee; }
+
+input,
+textarea {
+  margin: 0;
+  padding: 17px 30px 18px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1;
+  border: none;
+  box-shadow: none;
+  border-radius: 0; }
+
+textarea {
+  line-height: 1.5; }
+
+input[type='button'],
+input[type='submit'],
+input[type='reset'],
+button,
+a.cta-button {
+  display: inline-block;
+  margin: 0;
+  padding: 20px 30px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  line-height: 1;
+  color: #646464;
+  background: #e0e0e0;
+  border: none;
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 0; }
+  input[type='button']:hover, input[type='button']:active, input[type='button']:focus,
+  input[type='submit']:hover,
+  input[type='submit']:active,
+  input[type='submit']:focus,
+  input[type='reset']:hover,
+  input[type='reset']:active,
+  input[type='reset']:focus,
+  button:hover,
+  button:active,
+  button:focus,
+  a.cta-button:hover,
+  a.cta-button:active,
+  a.cta-button:focus {
+    outline-color: #bbb;
+    background: #dbdbdb;
+    box-shadow: none;
+    border: none; }
 
 .site-header {
   margin-top: 80px; }
@@ -69,14 +125,30 @@ body {
     margin: 0;
     padding: 60px;
     text-align: center;
-    outline: 1px solid #aaa; }
+    color: white;
+    background: #aaa;
+    outline: 1px solid #a0a0a0; }
+    #after-header-widgets .widget p {
+      margin: 0; }
   #after-header-widgets .widget:nth-of-type(1) {
     padding: 100px 0 75px;
-    width: 100%; }
+    width: 100%;
+    font-size: 28px;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
   #after-header-widgets .widget:nth-of-type(2),
   #after-header-widgets .widget:nth-of-type(3) {
     float: left;
     width: 50%; }
+
+.widget-title {
+  font-size: 20px;
+  font-size: 2rem;
+  margin-bottom: 20px; }
+
+form[id*="subscribe"] p {
+  display: inline; }
 
 #main {
   clear: both;
