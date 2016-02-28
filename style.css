@@ -38,12 +38,14 @@ a.cta-button {
   margin: 0;
   padding: 20px 30px;
   font-family: "Roboto";
-  font-weight: bold;
   font-size: 16px;
   font-size: 1.6rem;
+  font-weight: bold;
   text-transform: uppercase;
-  text-decoration: none;
   letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
   line-height: 1;
   color: #646464;
   background: #e0e0e0;
@@ -101,8 +103,11 @@ a.cta-button {
   padding: 0 20px;
   height: 80px;
   background: #EEEEEE;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   line-height: 40px; }
   .admin-bar .site-navigation {
     top: 32px; }
@@ -153,12 +158,74 @@ form[id*="subscribe"] p {
 #main {
   clear: both;
   margin: 0 auto;
-  max-width: 1020px; }
+  max-width: 1100px; }
+
+#content > .post {
+  position: relative;
+  margin-bottom: 6px;
+  padding: 40px 40px 40px 360px;
+  background: white; }
+  #content > .post div.entry-meta {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    padding: 75px 0;
+    width: 300px;
+    text-align: center;
+    background: #a0a0a0;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+    #content > .post div.entry-meta a {
+      display: block;
+      font-size: 16px;
+      font-size: 1.6rem;
+      text-decoration: none;
+      text-transform: none;
+      font-weight: normal;
+      letter-spacing: 0;
+      color: white; }
+    #content > .post div.entry-meta:before {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      right: -20px;
+      width: 0;
+      height: 0;
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent transparent #888 #888; }
+  #content > .post .cat-links {
+    position: absolute; }
+  #content > .post:nth-of-type(1) div.entry-meta:after {
+    content: ' ';
+    position: absolute;
+    bottom: -72px;
+    left: 0;
+    right: 0;
+    height: 72px;
+    background: url('data:image/svg+xml;utf8,<svg width="300" height="72" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h300v72L150 4.918 0 72V0z" fill="#A0A0A0" fill-rule="evenodd"/></svg>'); }
+  #content > .post:nth-of-type(1) .byline {
+    display: block;
+    margin: 10px 0; }
+  #content > .post:nth-of-type(n+2) .entry-content,
+  #content > .post:nth-of-type(n+2) footer.entry-meta {
+    display: none; }
+  #content > .post:nth-of-type(n+2) .entry-meta {
+    top: -6px;
+    padding: 25px 0; }
+    #content > .post:nth-of-type(n+2) .entry-meta:before {
+      right: -6px;
+      border-width: 3px; }
 
 .entry-title {
   font-family: "Roboto Slab";
+  text-transform: uppercase;
+  letter-spacing: 1px;
   font-size: 28px;
   font-size: 2.8rem;
-  line-height: 1.32143;
-  letter-spacing: 1px;
-  text-transform: uppercase; }
+  line-height: 1.32143; }
