@@ -6,8 +6,7 @@
 
 .entry-title {
 	font-family: $font-slab;
+	@include uppercase-serif;
 	@include font-size( 2.8 );
 	line-height: 1.32143;
-	letter-spacing: 1px;
-	text-transform: uppercase;
 }

@@ -35,8 +35,7 @@
 	padding: 0 20px;
 	height: 80px;
 	background: #EEEEEE;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	@include uppercase-sans;
 	line-height: 40px;
 
 	.admin-bar & {

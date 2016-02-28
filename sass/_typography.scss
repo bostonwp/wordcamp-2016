@@ -34,11 +34,9 @@ a.cta-button {
 	margin: 0;
 	padding: 20px 30px;
 	font-family: $font-sans;
-	font-weight: bold;
 	@include font-size( 1.6 );
-	text-transform: uppercase;
+	@include uppercase-sans;
 	text-decoration: none;
-	letter-spacing: 1px;
 	line-height: 1;
 	color: #646464;
 	background: #e0e0e0;
