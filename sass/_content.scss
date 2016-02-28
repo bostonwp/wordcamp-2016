@@ -11,15 +11,7 @@
 
 	background: white;
 
-	div.entry-meta {
-		position: absolute;
-		top: -20px;
-		left: 20px;
-		padding: 75px 0;
-		width: 300px;
-		text-align: center;
-		background: #a0a0a0;
-
+	.entry-meta {
 		@include font-size( 1.4 );
 		@include uppercase-sans;
 
@@ -32,6 +24,16 @@
 			letter-spacing: 0;
 			color: white;
 		}
+	}
+
+	div.entry-meta {
+		position: absolute;
+		top: -20px;
+		left: 20px;
+		padding: 75px 0 120px;
+		width: 300px;
+		text-align: center;
+		background: #a0a0a0;
 
 		&:before {
 			content:' ';
@@ -46,11 +48,26 @@
 		}
 	}
 
-	.cat-links {
+	footer.entry-meta {
 		position: absolute;
+		top: 153px;
+		left: 20px;
+		margin: 20px 0;
+		width: 300px;
+		text-align: center;
+
+		.sep {
+			display: none;
+		}
+	}
+
+	.comments-link {
+		display: none;
 	}
 
 	&:nth-of-type(1) {
+		min-height: 400px;
+
 		div.entry-meta:after {
 			content:' ';
 			position: absolute;
