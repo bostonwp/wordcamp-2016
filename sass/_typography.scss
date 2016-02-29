@@ -6,7 +6,7 @@ body {
 	font-family: $font-sans;
 	@include font-size( 1.8 );
 	line-height: 1.6;
-	background: #eee;
+	background: $grey-light;
 }
 
 img {
@@ -30,11 +30,11 @@ textarea {
 	line-height: 1.5;
 }
 
-a {
+a, a:visited {
 	color: $red;
 	text-decoration: none;
 
-	&:hover, &:active, &:focus {
+	@include hover-state {
 		color: darken( $red, 5% );
 		text-decoration: underline;
 	}

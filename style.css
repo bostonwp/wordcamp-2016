@@ -33,10 +33,10 @@ textarea {
 textarea {
   line-height: 1.5; }
 
-a {
+a, a:visited {
   color: #D82329;
   text-decoration: none; }
-  a:hover, a:active, a:focus {
+  a:hover, a:active, a:focus, a:visited:hover, a:visited:active, a:visited:focus {
     color: #c21f25;
     text-decoration: underline; }
 
@@ -88,7 +88,7 @@ a.cta-button {
 .site-header hgroup {
   display: block;
   height: 450px;
-  background: url("header.png") no-repeat center;
+  background: url("header.svg") no-repeat center;
   background-size: cover;
   border-top: 1px solid transparent; }
 
@@ -136,7 +136,7 @@ a.cta-button {
       border-radius: 3px;
       color: white;
       background-color: #D82329; }
-      .main-navigation .callout a:hover, .main-navigation .callout a:focus, .main-navigation .callout a:active {
+      .main-navigation .callout a:hover, .main-navigation .callout a:active, .main-navigation .callout a:focus {
         background-color: #c21f25; }
 
 .widget-title {
@@ -177,7 +177,8 @@ form[id*="subscribe"] p {
       background-color: #c21f25; }
 
 #primary-sidebar {
-  overflow: hidden; }
+  overflow: hidden;
+  margin: 60px 0; }
   #primary-sidebar:after {
     content: "";
     display: table;
@@ -191,7 +192,9 @@ form[id*="subscribe"] p {
       letter-spacing: 1px;
       font-size: 28px;
       font-size: 2.8rem;
-      margin: 0 10px; }
+      margin: 0 10px 40px;
+      text-align: center;
+      color: #283378; }
     #primary-sidebar .wcb_widget_sponsors .sponsor-level {
       display: inline; }
     #primary-sidebar .wcb_widget_sponsors .sponsor-level-title {
@@ -219,11 +222,35 @@ form[id*="subscribe"] p {
   margin: 0 auto;
   max-width: 1100px; }
 
+.page-header {
+  display: none; }
+
+.entry-title {
+  font-family: "Roboto Slab";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 28px;
+  font-size: 2.8rem;
+  line-height: 1.32143; }
+
+#content > .hentry {
+  margin-bottom: 6px;
+  padding: 40px;
+  background: white; }
+
+#content > .wp-post-image {
+  margin: 0 auto;
+  display: block;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 20px; }
+
 #content > .post {
   position: relative;
   margin-bottom: 6px;
   padding: 40px 40px 40px 360px;
-  background: white; }
+  background: white;
+  box-shadow: 0 6px 0 #eee; }
   #content > .post .entry-meta {
     font-size: 14px;
     font-size: 1.4rem;
@@ -269,6 +296,8 @@ form[id*="subscribe"] p {
     text-align: center; }
     #content > .post footer.entry-meta .sep {
       display: none; }
+    .single-post #content > .post footer.entry-meta {
+      display: none; }
   #content > .post .comments-link {
     display: none; }
   #content > .post:nth-of-type(1) {
@@ -294,10 +323,16 @@ form[id*="subscribe"] p {
       right: -6px;
       border-width: 3px; }
 
-.entry-title {
-  font-family: "Roboto Slab";
+.site-footer {
+  padding: 30px 0;
+  text-align: center;
+  background: white;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 28px;
-  font-size: 2.8rem;
-  line-height: 1.32143; }
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  font-size: 1.4rem; }
+  .site-footer a {
+    color: rgba(40, 51, 120, 0.5); }

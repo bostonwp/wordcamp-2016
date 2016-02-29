@@ -1,0 +1,11 @@
+.site-footer {
+	padding: 30px 0;
+	text-align: center;
+	background: white;
+	@include uppercase-sans;
+	@include font-size( 1.4 );
+
+	a {
+		color: rgba( $blue, 0.5 );
+	}
+}
