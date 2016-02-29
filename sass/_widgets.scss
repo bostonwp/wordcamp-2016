@@ -16,9 +16,9 @@ form[id*="subscribe"] {
 		margin: 0;
 		padding: 60px;
 		text-align: center;
-		color: white;
-		background: #aaa;
-		outline: 1px solid #a0a0a0;
+		color: $color-text;
+		background: $grey-light;
+
 		p {
 			margin: 0
 		}
@@ -30,6 +30,8 @@ form[id*="subscribe"] {
 		@include font-size( 2.8 );
 		letter-spacing: 2px;
 		text-transform: uppercase;
+		color: white;
+		background: $blue-mid;
 	}
 
 	.widget:nth-of-type(2),
