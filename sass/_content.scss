@@ -15,6 +15,8 @@
 		@include font-size( 1.4 );
 		@include uppercase-sans;
 
+		color: rgba( white, 0.5 );
+
 		a {
 			display: block;
 			@include font-size( 1.6 );
@@ -33,7 +35,7 @@
 		padding: 75px 0 120px;
 		width: 300px;
 		text-align: center;
-		background: #a0a0a0;
+		background: $blue;
 
 		&:before {
 			content:' ';
@@ -44,7 +46,7 @@
 			height: 0;
 			border-width: 10px;
 			border-style: solid;
-			border-color: transparent transparent #888 #888;
+			border-color: transparent transparent $blue-dark $blue-dark;
 		}
 	}
 
