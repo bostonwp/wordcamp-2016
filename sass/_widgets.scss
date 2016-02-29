@@ -1,3 +1,14 @@
+
+.widget-title {
+	@include font-size( 2.0 );
+	font-family: $font-slab;
+	margin-bottom: 20px;
+}
+
+form[id*="subscribe"] {
+	p { display: inline; }
+}
+
 #after-header-widgets {
 	font-family: $font-slab;
 
@@ -28,11 +39,50 @@
 	}
 }
 
-.widget-title {
-	@include font-size( 2.0 );
-	margin-bottom: 20px;
-}
+#primary-sidebar {
+	overflow: hidden;
 
-form[id*="subscribe"] {
-	p { display: inline; }
+	&:after {
+		@include clearfix;
+		@include clearfix-after;
+	}
+
+	.wcb_widget_sponsors {
+		margin-left: -10px;
+		margin-right: -10px;
+
+		.widget-title {
+			@include uppercase-serif;
+			@include font-size( 2.8 );
+			margin: 0 10px;
+		}
+
+		.sponsor-level {
+			display: inline;
+		}
+
+		.sponsor-level-title {
+			display: none;
+		}
+
+		.sponsor-logo {
+			float: left;
+			position: relative;
+			margin: 10px;
+			width: calc( 25% - 20px );
+			height: 110px;
+			background-color: white;
+			vertical-align: middle;
+			text-align: center;
+			overflow: hidden;
+
+			img {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				max-width: 80%;
+			}
+		}
+	}
 }

@@ -14,6 +14,10 @@ body {
   line-height: 1.6;
   background: #eee; }
 
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
 input,
 textarea {
   margin: 0;
@@ -124,6 +128,15 @@ a.cta-button {
       padding: 0 10px;
       background: #bbb; }
 
+.widget-title {
+  font-size: 20px;
+  font-size: 2rem;
+  font-family: "Roboto Slab";
+  margin-bottom: 20px; }
+
+form[id*="subscribe"] p {
+  display: inline; }
+
 #after-header-widgets {
   font-family: "Roboto Slab"; }
   #after-header-widgets .widget {
@@ -147,13 +160,43 @@ a.cta-button {
     float: left;
     width: 50%; }
 
-.widget-title {
-  font-size: 20px;
-  font-size: 2rem;
-  margin-bottom: 20px; }
-
-form[id*="subscribe"] p {
-  display: inline; }
+#primary-sidebar {
+  overflow: hidden; }
+  #primary-sidebar:after {
+    content: "";
+    display: table;
+    table-layout: fixed;
+    clear: both; }
+  #primary-sidebar .wcb_widget_sponsors {
+    margin-left: -10px;
+    margin-right: -10px; }
+    #primary-sidebar .wcb_widget_sponsors .widget-title {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 28px;
+      font-size: 2.8rem;
+      margin: 0 10px; }
+    #primary-sidebar .wcb_widget_sponsors .sponsor-level {
+      display: inline; }
+    #primary-sidebar .wcb_widget_sponsors .sponsor-level-title {
+      display: none; }
+    #primary-sidebar .wcb_widget_sponsors .sponsor-logo {
+      float: left;
+      position: relative;
+      margin: 10px;
+      width: calc( 25% - 20px);
+      height: 110px;
+      background-color: white;
+      vertical-align: middle;
+      text-align: center;
+      overflow: hidden; }
+      #primary-sidebar .wcb_widget_sponsors .sponsor-logo img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        max-width: 80%; }
 
 #main {
   clear: both;
