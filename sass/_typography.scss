@@ -14,22 +14,6 @@ img {
 	vertical-align: middle;
 }
 
-input,
-textarea {
-	margin: 0;
-	padding: 17px 30px 18px;
-	font-family: $font-sans;
-	@include font-size( 1.6 );
-	line-height: 1;
-	border: none;
-	box-shadow: none;
-	border-radius: 0;
-}
-
-textarea {
-	line-height: 1.5;
-}
-
 a, a:visited {
 	color: $red;
 	text-decoration: none;
@@ -39,6 +23,45 @@ a, a:visited {
 		text-decoration: underline;
 	}
 }
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	margin: 0;
+	width: 100%;
+	font-family: $font-sans;
+	@include font-size( 1.6 );
+	line-height: 1;
+	color: $color-text;
+	background-color: white;
+	border-radius: 0;
+	border: 1px solid;
+	border-color: $blue-light;
+	box-shadow: none;
+
+	&:focus {
+		outline: none;
+		box-shadow: 0 2px 0 $blue-mid;
+	}
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+	padding: 10px 20px 8px;
+}
+
+textarea {
+	padding: 10px 20px 8px;
+	width: 100%;
+	line-height: 1.5;
+}
+
 
 input[type='button'],
 input[type='submit'],
