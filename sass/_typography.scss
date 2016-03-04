@@ -6,7 +6,12 @@ body {
 	font-family: $font-sans;
 	@include font-size( 1.8 );
 	line-height: 1.6;
+	color: $color-text;
 	background: $grey-light;
+}
+
+p {
+	margin: 0 0 15px;
 }
 
 img {
@@ -21,6 +26,25 @@ a, a:visited {
 	@include hover-state {
 		color: darken( $red, 5% );
 		text-decoration: underline;
+	}
+}
+
+.entry-content {
+	h1, h2, h3 {
+		margin: 30px 0 15px;
+		font-family: $font-slab;
+		@include uppercase-serif;
+		line-height: 1.32143;
+		color: $blue;
+	}
+	h1 {
+		@include font-size( 2.6 );
+	}
+	h2 {
+		@include font-size( 2.2 );
+	}
+	h3 {
+		@include font-size( 1.8 );
 	}
 }
 
