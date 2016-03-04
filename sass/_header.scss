@@ -5,11 +5,11 @@
 .site-header hgroup {
 	display: block;
 	padding: 40px 0 100px;
-	background: $blue-mid url('boats.svg') repeat-x center;
+	background: $blue-mid url($img-boats) repeat-x center;
 	
 	.home & {
 		height: 650px;
-		background: $blue-mid url('header.svg') repeat-x top center;
+		background: $blue-mid url($img-skyline) repeat-x top center;
 	}
 }
 
@@ -25,7 +25,7 @@
 		display: block;
 		width: 249px;
 		height: 122px;
-		background: url( 'logo.svg' ) no-repeat center;
+		background: url($img-logo) no-repeat center;
 		text-indent: -9999em;
 	}
 	
