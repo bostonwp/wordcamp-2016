@@ -9,9 +9,15 @@ form[id*="subscribe"] {
 	p { display: inline; }
 
 	input[type="email"] {
-		width: 300px;
+		margin-right: -5px;
 		padding: 16px 30px 17px;
+		width: 300px;
+		border-radius: 3px 0 0 3px;
 		line-height: 1;
+		height: 56px;
+	}
+	input[type="submit"] {
+		border-radius: 0 3px 3px 0;
 	}
 }
 

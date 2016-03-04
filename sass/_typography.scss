@@ -61,14 +61,14 @@ textarea {
 	line-height: 1;
 	color: $color-text;
 	background-color: white;
-	border-radius: 0;
+	border-radius: 3px;
 	border: 1px solid;
-	border-color: $blue-light;
-	box-shadow: none;
+	border-color: #e2e2e2;
+	box-shadow: inset 0px 1px 3px 0px rgba( black, 0.1 );
 
 	&:focus {
 		outline: none;
-		box-shadow: 0 2px 0 $blue-mid;
+		box-shadow: inset 0px 1px 3px 0px rgba( black, 0.25 )
 	}
 }
 
@@ -86,6 +86,11 @@ textarea {
 	line-height: 1.5;
 }
 
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
 
 input[type='button'],
 input[type='submit'],

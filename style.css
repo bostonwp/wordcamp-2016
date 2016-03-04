@@ -63,10 +63,10 @@ textarea {
   line-height: 1;
   color: #414453;
   background-color: white;
-  border-radius: 0;
+  border-radius: 3px;
   border: 1px solid;
-  border-color: #A6A8C6;
-  box-shadow: none; }
+  border-color: #e2e2e2;
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1); }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="url"]:focus,
@@ -74,7 +74,7 @@ textarea {
   input[type="search"]:focus,
   textarea:focus {
     outline: none;
-    box-shadow: 0 2px 0 #6DBBE4; }
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.25); }
 
 input[type="text"],
 input[type="email"],
@@ -87,6 +87,11 @@ textarea {
   padding: 10px 20px 8px;
   width: 100%;
   line-height: 1.5; }
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold; }
 
 input[type='button'],
 input[type='submit'],
@@ -207,9 +212,15 @@ form[id*="subscribe"] p {
   display: inline; }
 
 form[id*="subscribe"] input[type="email"] {
-  width: 300px;
+  margin-right: -5px;
   padding: 16px 30px 17px;
-  line-height: 1; }
+  width: 300px;
+  border-radius: 3px 0 0 3px;
+  line-height: 1;
+  height: 56px; }
+
+form[id*="subscribe"] input[type="submit"] {
+  border-radius: 0 3px 3px 0; }
 
 #after-header-widgets {
   font-family: "Roboto Slab";
@@ -474,25 +485,6 @@ form[id*="subscribe"] input[type="email"] {
       text-align: right;
       font-size: 14px;
       font-size: 1.4rem; }
-
-@media (min-width: 700px) {
-  .comment-form p:not(.comment-notes) {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex; }
-  .comment-form label,
-  .comment-form input[type='text'],
-  .comment-form input[type='url'],
-  .comment-form input[type='email'],
-  .comment-form textarea {
-    -webkit-flex: 1;
-        -ms-flex: 1;
-            flex: 1; }
-  .comment-form label {
-    max-width: 100px;
-    padding-right: 20px; }
-  .comment-form .form-submit {
-    margin-left: 100px; } }
 
 .site-footer {
   padding: 30px 0;
