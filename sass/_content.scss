@@ -33,6 +33,16 @@
 		height: auto;
 		margin-bottom: 20px;
 	}
+	
+	.post-navigation {
+		margin: 40px auto;
+		font-family: $font-slab;
+		@include uppercase-serif;
+		@include font-size( 1.8 );
+		line-height: 1.32143;
+		
+		max-width: $size-post-width;
+	}
 }
 
 @import 'content/home';

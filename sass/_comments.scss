@@ -1,4 +1,9 @@
-#content .post-navigation,
+#comments {
+	margin: 0 auto;
+	padding: 60px 0;
+	max-width: $size-post-width;
+}
+
 .comments-title,
 .comment-reply-title {
 	margin: 40px 0;
@@ -22,18 +27,7 @@
 	}
 
 	article.comment {
-		padding: 40px;
-		background: white;
-
-		& > footer {
-			display: flex;
-			margin: 0 0 20px;
-		}
-
-		.comment-author,
-		.comment-meta {
-			flex: 1;
-		}
+		margin-bottom: 40px;
 
 		.avatar {
 			margin-right: 10px;
