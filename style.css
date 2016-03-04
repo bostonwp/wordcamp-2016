@@ -136,8 +136,7 @@ a.cta-button {
 .site-header hgroup {
   display: block;
   padding: 40px 0 100px;
-  background: url("boats.svg") no-repeat center;
-  background-size: cover; }
+  background: #6DBBE4 url("boats.svg") repeat-x center; }
   .home .site-header hgroup {
     height: 650px;
     background: #6DBBE4 url("header.svg") repeat-x top center; }

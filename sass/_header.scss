@@ -5,8 +5,7 @@
 .site-header hgroup {
 	display: block;
 	padding: 40px 0 100px;
-	background: url('boats.svg') no-repeat center;
-	background-size: cover;
+	background: $blue-mid url('boats.svg') repeat-x center;
 	
 	.home & {
 		height: 650px;
