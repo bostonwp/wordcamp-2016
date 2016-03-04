@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1200px" height="296px" viewBox="0 0 1200 296" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Header</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Static-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="WCBos-2016:-About" sketch:type="MSArtboardGroup" transform="translate(0.000000, -80.000000)">
+            <g id="Header" sketch:type="MSLayerGroup" transform="translate(0.000000, 80.000000)">
+                <rect id="Rectangle-3" fill="#6DBBE4" sketch:type="MSShapeGroup" x="0" y="0" width="1200" height="296"></rect>
+                <path d="M252,148.9316 L252,142.9676 C257.599,143.4886 264.194,143.8416 270.333,142.8336 C270.333,142.8336 258.167,91.1666 246.833,78.6666 L243.167,141.9996 C243.167,141.9996 245.499,142.3876 249,142.7666 L249,148.8226 C238.05,148.1836 228.167,146.9996 228.167,146.9996 L230.167,158.9996 C241.5,159.1666 270,153.9996 270,153.9996 L270,148.8336 C264.848,149.3856 258.823,149.2816 252,148.9316" id="Fill-77" fill="#DBEBF3" sketch:type="MSShapeGroup"></path>
+                <path d="M892,132.2758 L892,128.2918 C888,128.6398 884.101,128.8758 880.001,128.2018 C880.001,128.2018 888.085,93.6898 895.656,85.3398 L898.001,127.6458 C898.001,127.6458 896,127.9048 894,128.1578 L894,132.2028 C901,131.7758 907.999,130.9858 907.999,130.9858 L906.636,139.0018 C899.065,139.1128 880,138.6618 880,138.6618 L880,132.2098 C883,132.5788 887,132.5098 892,132.2758" id="Fill-78" fill="#DBEBF3" sketch:type="MSShapeGroup"></path>
+                <path d="M962,152.2758 L962,148.2918 C958,148.6398 954.101,148.8758 950.001,148.2018 C950.001,148.2018 958.085,113.6898 965.656,105.3398 L968.001,147.6458 C968.001,147.6458 966,147.9048 964,148.1578 L964,152.2028 C971,151.7758 977.999,150.9858 977.999,150.9858 L976.636,159.0018 C969.065,159.1128 950,158.6618 950,158.6618 L950,152.2098 C953,152.5788 957,152.5098 962,152.2758" id="Fill-79" fill="#DBEBF3" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
