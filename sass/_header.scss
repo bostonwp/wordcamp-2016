@@ -4,26 +4,41 @@
 
 .site-header hgroup {
 	display: block;
-	height: 650px;
-	background: url('header.svg') no-repeat center;
+	padding: 40px 0 100px;
+	background: url('boats.svg') no-repeat center;
 	background-size: cover;
-	border-top: 1px solid transparent;
+	
+	.home & {
+		height: 650px;
+		background: $blue-mid url('header.svg') repeat-x top center;
+	}
 }
 
 .site-title {
 	position: relative;
 	z-index: 10;
-	margin: 250px auto 0;
-	padding: 30px;
-	width: 465px;
+	margin: 0 auto;
+	padding: 20px;
+	width: 289px;
 	background: white;
 
 	a {
 		display: block;
-		width: 415px;
-		height: 180px;
+		width: 249px;
+		height: 122px;
 		background: url( 'logo.svg' ) no-repeat center;
 		text-indent: -9999em;
+	}
+	
+	.home & {
+		margin: 220px auto 0;
+		padding: 30px;
+		width: 465px;
+		
+		a {
+			width: 415px;
+			height: 180px;
+		}
 	}
 }
 

@@ -17,7 +17,7 @@ form[id*="subscribe"] {
 
 #after-header-widgets {
 	font-family: $font-slab;
-	margin: -190px auto 0;
+	margin: -100px auto 0;
 	max-width: $size-main-width;
 
 	.widget {
@@ -33,9 +33,12 @@ form[id*="subscribe"] {
 	}
 
 	.widget:nth-of-type(1) {
-		padding: 100px 0 50px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		padding: 0;
 		width: 100%;
-		height: 190px;
+		height: 100px;
 		@include font-size( 2.8 );
 		letter-spacing: 2px;
 		text-transform: uppercase;
@@ -56,6 +59,14 @@ form[id*="subscribe"] {
 			@include hover-state {
 				background-color: darken( $red, 5% );
 			}
+		}
+	}
+	
+	.home & {
+		margin-top: -160px;
+
+		.widget:nth-of-type(1) {
+			height: 160px;
 		}
 	}
 }
