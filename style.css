@@ -211,7 +211,7 @@ a.cta-button {
 .jetpack_subscription_widget p {
   display: inline; }
 
-.jetpack_subscription_widget input[type="email"] {
+.jetpack_subscription_widget #subscribe-email input {
   margin-right: -5px;
   padding: 16px 30px 17px;
   width: 300px;
