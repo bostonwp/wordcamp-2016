@@ -208,10 +208,10 @@ a.cta-button {
   font-family: "Roboto Slab";
   margin-bottom: 20px; }
 
-form[id*="subscribe"] p {
+.jetpack_subscription_widget p {
   display: inline; }
 
-form[id*="subscribe"] input[type="email"] {
+.jetpack_subscription_widget input[type="email"] {
   margin-right: -5px;
   padding: 16px 30px 17px;
   width: 300px;
@@ -219,7 +219,7 @@ form[id*="subscribe"] input[type="email"] {
   line-height: 1;
   height: 56px; }
 
-form[id*="subscribe"] input[type="submit"] {
+.jetpack_subscription_widget input[type="submit"] {
   border-radius: 0 3px 3px 0; }
 
 #after-header-widgets {
