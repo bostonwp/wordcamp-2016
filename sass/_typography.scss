@@ -90,6 +90,10 @@ label {
 	display: block;
 	margin-bottom: 10px;
 	font-weight: bold;
+	
+	span {
+		color: $blue-light !important;
+	}
 }
 
 input[type='button'],

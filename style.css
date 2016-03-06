@@ -92,6 +92,8 @@ label {
   display: block;
   margin-bottom: 10px;
   font-weight: bold; }
+  label span {
+    color: #A6A8C6 !important; }
 
 input[type='button'],
 input[type='submit'],
