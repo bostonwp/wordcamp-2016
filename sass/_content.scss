@@ -26,12 +26,12 @@
 		background: white;
 	}
 
-	& > .wp-post-image {
+	.attachment-post-thumbnail {
 		margin: 0 auto;
+		padding-top: 50px;
 		display: block;
 		max-width: 600px;
 		height: auto;
-		margin-bottom: 20px;
 	}
 	
 	.post-navigation {

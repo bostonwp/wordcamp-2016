@@ -352,12 +352,12 @@ a.cta-button {
     padding: 60px 0;
     max-width: 720px;
     background: white; }
-  #content > .wp-post-image {
+  #content .attachment-post-thumbnail {
     margin: 0 auto;
+    padding-top: 50px;
     display: block;
     max-width: 600px;
-    height: auto;
-    margin-bottom: 20px; }
+    height: auto; }
   #content .post-navigation {
     margin: 40px auto;
     font-family: "Roboto Slab";
