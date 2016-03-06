@@ -140,6 +140,13 @@ a.cta-button {
     box-shadow: none;
     border: none; }
 
+.entry-content .callout {
+  position: relative;
+  margin-bottom: 15px;
+  padding: 20px;
+  background: #283378;
+  color: white; }
+
 .site-header {
   margin-top: 80px; }
 
