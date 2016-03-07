@@ -5,6 +5,17 @@
 	margin-bottom: 20px;
 }
 
+.textwidget {
+	.cta-button {
+		color: white;
+		background-color: $red;
+
+		@include hover-state {
+			background-color: darken( $red, 5% );
+		}
+	}
+}
+
 .jetpack_subscription_widget {
 	p { display: inline; }
 
@@ -57,16 +68,6 @@
 		float: left;
 		width: 50%;
 	}
-
-	.widget:nth-of-type(3) {
-		.cta-button {
-			background-color: $red;
-
-			@include hover-state {
-				background-color: darken( $red, 5% );
-			}
-		}
-	}
 	
 	.home & {
 		margin-top: -160px;
@@ -88,11 +89,15 @@
 	}
 }
 
+#secondary {
+	background: $grey-lightest;
+}
+
 #primary-sidebar {
 	overflow: hidden;
-	margin: 60px auto;
+	margin: 0 auto;
+	padding: 60px 0;
 	max-width: $size-main-width;
-
 
 	&:after {
 		@include clearfix;
@@ -138,5 +143,29 @@
 				max-width: 80%;
 			}
 		}
+	}
+}
+
+#footer-widgets {
+	background: $grey-light;
+	
+	&:after {
+		@include clearfix;
+		@include clearfix-after;
+	}
+}
+
+#footer-widget-1 {
+	margin: 0 auto;
+	max-width: $size-main-width;
+	
+	.widget {
+		float: left;
+		margin: 0;
+		padding: 60px 0;
+		width: 50%;
+		text-align: center;
+		color: $color-text;
+		background: $grey-light;
 	}
 }

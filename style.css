@@ -220,6 +220,12 @@ a.cta-button {
   font-family: "Roboto Slab";
   margin-bottom: 20px; }
 
+.textwidget .cta-button {
+  color: white;
+  background-color: #D82329; }
+  .textwidget .cta-button:hover, .textwidget .cta-button:active, .textwidget .cta-button:focus {
+    background-color: #c21f25; }
+
 .jetpack_subscription_widget p {
   display: inline; }
 
@@ -269,10 +275,6 @@ a.cta-button {
   #after-header-widgets .widget:nth-of-type(3) {
     float: left;
     width: 50%; }
-  #after-header-widgets .widget:nth-of-type(3) .cta-button {
-    background-color: #D82329; }
-    #after-header-widgets .widget:nth-of-type(3) .cta-button:hover, #after-header-widgets .widget:nth-of-type(3) .cta-button:active, #after-header-widgets .widget:nth-of-type(3) .cta-button:focus {
-      background-color: #c21f25; }
   .home #after-header-widgets {
     margin-top: -160px; }
     .home #after-header-widgets .widget:nth-of-type(1) {
@@ -286,9 +288,13 @@ a.cta-button {
     max-width: 1100px;
     text-align: center; }
 
+#secondary {
+  background: #F9F9F9; }
+
 #primary-sidebar {
   overflow: hidden;
-  margin: 60px auto;
+  margin: 0 auto;
+  padding: 60px 0;
   max-width: 1100px; }
   #primary-sidebar:after {
     content: "";
@@ -327,6 +333,26 @@ a.cta-button {
         -webkit-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
         max-width: 80%; }
+
+#footer-widgets {
+  background: #eee; }
+  #footer-widgets:after {
+    content: "";
+    display: table;
+    table-layout: fixed;
+    clear: both; }
+
+#footer-widget-1 {
+  margin: 0 auto;
+  max-width: 1100px; }
+  #footer-widget-1 .widget {
+    float: left;
+    margin: 0;
+    padding: 60px 0;
+    width: 50%;
+    text-align: center;
+    color: #414453;
+    background: #eee; }
 
 #main {
   clear: both;
@@ -371,6 +397,7 @@ a.cta-button {
 .home #content {
   position: relative;
   top: -20px;
+  margin-bottom: -20px;
   padding-top: 20px;
   overflow-x: hidden; }
   .home #content:before {
@@ -498,7 +525,8 @@ a.cta-button {
       font-size: 14px;
       font-size: 1.4rem; }
 
-.site-footer {
+.site-info {
+  clear: both;
   padding: 30px 0;
   text-align: center;
   background: white;
@@ -509,5 +537,5 @@ a.cta-button {
   -moz-osx-font-smoothing: grayscale;
   font-size: 14px;
   font-size: 1.4rem; }
-  .site-footer a {
+  .site-info a {
     color: rgba(40, 51, 120, 0.5); }
