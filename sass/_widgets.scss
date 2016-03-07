@@ -7,7 +7,7 @@
 
 .textwidget {
 	.cta-button {
-		color: white;
+		color: white !important;
 		background-color: $red;
 
 		@include hover-state {

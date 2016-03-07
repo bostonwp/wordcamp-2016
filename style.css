@@ -221,7 +221,7 @@ a.cta-button {
   margin-bottom: 20px; }
 
 .textwidget .cta-button {
-  color: white;
+  color: white !important;
   background-color: #D82329; }
   .textwidget .cta-button:hover, .textwidget .cta-button:active, .textwidget .cta-button:focus {
     background-color: #c21f25; }
