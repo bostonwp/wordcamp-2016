@@ -213,6 +213,16 @@ a.cta-button {
       background-color: #D82329; }
       .main-navigation .callout a:hover, .main-navigation .callout a:active, .main-navigation .callout a:focus {
         background-color: #c21f25; }
+  .main-navigation ul ul {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    float: left;
+    padding-bottom: 10px;
+    box-shadow: none;
+    background: white; }
+    .main-navigation ul ul a {
+      padding: 5px 20px; }
 
 .widget-title {
   font-size: 20px;
