@@ -18,6 +18,11 @@
 #content {
 	background: white;
 
+	@media ( max-width: ( $size-post-width + 20px ) ) {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
 	& > .hentry {
 		position: relative;
 		margin: 0 auto 0;
@@ -42,6 +47,18 @@
 		line-height: 1.32143;
 		
 		max-width: $size-post-width;
+	}
+	
+	@media ( max-width: 520px ) {
+		.nav-previous,
+		.nav-next {
+			float: none;
+			width: 100%;
+		}
+		
+		.nav-previous + .nav-next {
+			margin-top: 20px;
+		}
 	}
 }
 
