@@ -37,8 +37,12 @@
 		display: block;
 		max-width: 600px;
 		height: auto;
+
+		@media ( max-width: 640px ) {
+			max-width: 100%;
+		}
 	}
-	
+
 	.post-navigation {
 		margin: 40px auto;
 		font-family: $font-slab;
