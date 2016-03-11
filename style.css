@@ -676,4 +676,7 @@ a.cta-button {
   font-size: 14px;
   font-size: 1.4rem; }
   .site-info a {
-    color: rgba(40, 51, 120, 0.5); }
+    color: rgba(40, 51, 120, 0.5) !important; }
+  .site-info .site-info-generator {
+    padding-right: 5px;
+    border-right: 2px solid rgba(65, 68, 83, 0.3); }

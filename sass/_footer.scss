@@ -7,6 +7,11 @@
 	@include font-size( 1.4 );
 
 	a {
-		color: rgba( $blue, 0.5 );
+		color: rgba( $blue, 0.5 ) !important;
+	}
+	
+	.site-info-generator {
+		padding-right: 5px;
+		border-right: 2px solid rgba( $color-text, 0.3 );
 	}
 }
