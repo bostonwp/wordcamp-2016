@@ -599,6 +599,36 @@ a.cta-button {
       .home #content .post .comments-link {
         display: none; } }
 
+.wcorg-organizers .wcorg-organizer {
+  clear: both;
+  padding: 30px 0;
+  border-bottom: 2px solid #F9F9F9; }
+
+.wcorg-organizers h2 {
+  margin: 0 0 15px; }
+
+.wcorg-organizers .avatar {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px; }
+
+@media (min-width: 400px) {
+  .wcorg-organizers .wcorg-organizer {
+    margin-left: 130px; }
+  .wcorg-organizers .wcorg-organizer-description {
+    min-height: 70px; }
+    .wcorg-organizers .wcorg-organizer-description .avatar {
+      float: left;
+      margin-top: -30px;
+      margin-left: -130px;
+      margin-bottom: 0; } }
+
+.wcorg-organizers:after {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  clear: both; }
+
 #comments {
   margin: 0 auto;
   padding: 60px 0;
