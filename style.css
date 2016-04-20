@@ -634,6 +634,50 @@ a.cta-button {
   table-layout: fixed;
   clear: both; }
 
+.tix_tickets_table thead th,
+.tix-ticket-form thead th {
+  padding-bottom: 15px; }
+
+.tix_tickets_table .tix-column-remaining,
+.tix-ticket-form .tix-column-remaining {
+  display: none; }
+
+.tix_tickets_table .tix-column-quantity,
+.tix-ticket-form .tix-column-quantity {
+  text-align: right; }
+
+.tix_tickets_table .tix-row-coupon td,
+.tix-ticket-form .tix-row-coupon td {
+  padding-top: 15px; }
+
+.tix_tickets_table #tix-coupon-input,
+.tix-ticket-form #tix-coupon-input {
+  float: left;
+  margin-right: -5px;
+  padding: 16px 30px 17px;
+  width: calc( 100% - 185px);
+  border-radius: 3px 0 0 3px; }
+
+.tix_tickets_table #tix-coupon-container input[type="submit"],
+.tix-ticket-form #tix-coupon-container input[type="submit"] {
+  width: 188px; }
+
+.tix-attendee-form th, .tix-attendee-form td {
+  padding-bottom: 20px; }
+
+.tix-attendee-form .tix-right {
+  padding-left: 8px; }
+  .tix-attendee-form .tix-right label {
+    font-weight: normal; }
+    .tix-attendee-form .tix-right label input {
+      margin-right: 5px; }
+  .tix-attendee-form .tix-right br {
+    display: none; }
+  .tix-attendee-form .tix-right textarea {
+    width: 100%;
+    height: 200px;
+    resize: vertical; }
+
 #comments {
   margin: 0 auto;
   padding: 60px 0;

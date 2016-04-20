@@ -1,0 +1,58 @@
+.tix_tickets_table,
+.tix-ticket-form {
+	thead th {
+		padding-bottom: 15px;
+	}
+
+	.tix-column-remaining {
+		display: none;
+	}
+	
+	.tix-column-quantity {
+		text-align: right;
+	}
+	
+	.tix-row-coupon td {
+		padding-top: 15px;
+	}
+	
+	#tix-coupon-input {
+		float: left;
+		margin-right: -5px;
+		padding: 16px 30px 17px;
+		width: calc( 100% - 185px);
+		border-radius: 3px 0 0 3px;
+	}
+	
+	#tix-coupon-container input[type="submit"] {
+		width: 188px;
+	}
+}
+
+.tix-attendee-form {
+	th, td {
+		padding-bottom: 20px;
+	}
+	
+	.tix-right {
+		padding-left: 8px;
+
+		label {
+			font-weight: normal;
+			
+			input {
+				margin-right: 5px;
+			}
+		}
+
+		br {
+			display: none;
+		}
+		
+		textarea {
+			width: 100%;
+			height: 200px;
+			resize: vertical;
+		}
+	}
+}
