@@ -636,11 +636,14 @@ a.cta-button {
 
 .tix_tickets_table .tix-column-description,
 .tix-ticket-form .tix-column-description {
-  padding-top: 15px;
   max-width: 200px; }
   .tix_tickets_table .tix-column-description .tix-ticket-excerpt,
   .tix-ticket-form .tix-column-description .tix-ticket-excerpt {
     font-size: 16px; }
+
+.tix_tickets_table td.tix-column-description,
+.tix-ticket-form td.tix-column-description {
+  padding-top: 15px; }
 
 .tix_tickets_table .tix-column-remaining,
 .tix-ticket-form .tix-column-remaining {
