@@ -662,6 +662,24 @@ a.cta-button {
 .tix-ticket-form #tix-coupon-container input[type="submit"] {
   width: 188px; }
 
+.tix_tickets_table td.tix-column-price::before,
+.tix_tickets_table td.tix-column-per-ticket::before,
+.tix_tickets_table .tix-row-total strong::before,
+.tix-ticket-form td.tix-column-price::before,
+.tix-ticket-form td.tix-column-per-ticket::before,
+.tix-ticket-form .tix-row-total strong::before {
+  content: '$'; }
+
+.tix-order-summary .tix-column-quantity {
+  text-align: left; }
+
+.tix-order-summary .tix-row-total td,
+.tix-order-summary .tix-column-price {
+  text-align: right; }
+
+.tix-order-summary .tix-row-total td {
+  padding-top: 15px; }
+
 .tix-attendee-form th, .tix-attendee-form td {
   padding-bottom: 20px; }
 
