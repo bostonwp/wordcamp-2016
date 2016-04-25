@@ -634,12 +634,9 @@ a.cta-button {
   table-layout: fixed;
   clear: both; }
 
-.tix_tickets_table thead th,
-.tix-ticket-form thead th {
-  padding-bottom: 15px; }
-
 .tix_tickets_table .tix-column-description,
 .tix-ticket-form .tix-column-description {
+  padding-top: 15px;
   max-width: 200px; }
   .tix_tickets_table .tix-column-description .tix-ticket-excerpt,
   .tix-ticket-form .tix-column-description .tix-ticket-excerpt {
