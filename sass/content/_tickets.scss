@@ -4,6 +4,14 @@
 		padding-bottom: 15px;
 	}
 
+	.tix-column-description {
+		max-width: 200px;
+
+		.tix-ticket-excerpt {
+			font-size: 16px;
+		}
+	}
+
 	.tix-column-remaining {
 		display: none;
 	}

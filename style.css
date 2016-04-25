@@ -638,6 +638,13 @@ a.cta-button {
 .tix-ticket-form thead th {
   padding-bottom: 15px; }
 
+.tix_tickets_table .tix-column-description,
+.tix-ticket-form .tix-column-description {
+  max-width: 200px; }
+  .tix_tickets_table .tix-column-description .tix-ticket-excerpt,
+  .tix-ticket-form .tix-column-description .tix-ticket-excerpt {
+    font-size: 16px; }
+
 .tix_tickets_table .tix-column-remaining,
 .tix-ticket-form .tix-column-remaining {
   display: none; }
