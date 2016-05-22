@@ -505,6 +505,66 @@ a.cta-button {
     #content .nav-previous + .nav-next {
       margin-top: 20px; } }
 
+.page-slug-speakers #content,
+.page-slug-organizers #content,
+.page-slug-attendees #content {
+  overflow-x: hidden; }
+
+.page-slug-speakers #content > .hentry,
+.page-slug-organizers #content > .hentry,
+.page-slug-attendees #content > .hentry {
+  padding-top: 0; }
+
+.page-slug-speakers .entry-header,
+.page-slug-organizers .entry-header,
+.page-slug-attendees .entry-header {
+  position: relative;
+  height: 100px;
+  text-align: center; }
+  .page-slug-speakers .entry-header:before, .page-slug-speakers .entry-header:after,
+  .page-slug-organizers .entry-header:before,
+  .page-slug-organizers .entry-header:after,
+  .page-slug-attendees .entry-header:before,
+  .page-slug-attendees .entry-header:after {
+    content: '';
+    position: absolute;
+    left: -500px;
+    right: -500px;
+    height: 10px;
+    background: #eee; }
+  .page-slug-speakers .entry-header:before,
+  .page-slug-organizers .entry-header:before,
+  .page-slug-attendees .entry-header:before {
+    top: 0; }
+  .page-slug-speakers .entry-header:after,
+  .page-slug-organizers .entry-header:after,
+  .page-slug-attendees .entry-header:after {
+    bottom: 0; }
+
+.page-slug-speakers .entry-title,
+.page-slug-organizers .entry-title,
+.page-slug-attendees .entry-title {
+  position: absolute;
+  top: 4px;
+  left: calc( 50% - 150px);
+  padding: 18px 60px;
+  width: 300px;
+  text-align: center;
+  background: #283378;
+  color: white; }
+  .page-slug-speakers .entry-title:before,
+  .page-slug-organizers .entry-title:before,
+  .page-slug-attendees .entry-title:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: -6px;
+    width: 0;
+    height: 0;
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent transparent #0B1342 #0B1342; }
+
 .home #content {
   position: relative;
   top: -20px;
@@ -611,29 +671,39 @@ a.cta-button {
       .home #content .post .comments-link {
         display: none; } }
 
+.page-slug-organizers .entry-content {
+  margin-top: 0; }
+
+.page-slug-organizers .wcorg-organizers {
+  padding-top: 60px; }
+
 .wcorg-organizers .wcorg-organizer {
+  position: relative;
   clear: both;
-  padding: 30px 0;
+  padding: 140px 0 40px;
   border-bottom: 2px solid #F9F9F9; }
+  .wcorg-organizers .wcorg-organizer + .wcorg-organizer {
+    margin-top: 40px; }
 
 .wcorg-organizers h2 {
-  margin: 0 0 15px; }
+  margin: 0 0 15px;
+  text-align: center;
+  text-transform: none;
+  font-size: 22px;
+  font-size: 2.2rem;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #364889; }
 
 .wcorg-organizers .avatar {
+  position: absolute;
+  top: 0;
+  left: calc( 50% - 60px);
   border-radius: 50%;
   display: block;
-  margin: 0 auto 15px; }
-
-@media (min-width: 400px) {
-  .wcorg-organizers .wcorg-organizer {
-    margin-left: 130px; }
-  .wcorg-organizers .wcorg-organizer-description {
-    min-height: 70px; }
-    .wcorg-organizers .wcorg-organizer-description .avatar {
-      float: left;
-      margin-top: -30px;
-      margin-left: -130px;
-      margin-bottom: 0; } }
+  margin: 0 auto 15px;
+  padding: 5px;
+  border: 5px solid #283378; }
 
 .wcorg-organizers:after {
   content: "";
@@ -709,6 +779,40 @@ a.cta-button {
     width: 100%;
     height: 200px;
     resize: vertical; }
+
+.page-slug-attendees .entry-content {
+  margin-top: 0; }
+
+.page-slug-attendees #tix-attendees {
+  padding-top: 60px; }
+  .page-slug-attendees #tix-attendees li {
+    height: 180px;
+    text-align: center;
+    margin-bottom: 40px; }
+  .page-slug-attendees #tix-attendees .avatar,
+  .page-slug-attendees #tix-attendees .tix-field {
+    float: none;
+    display: block;
+    margin: 0; }
+  .page-slug-attendees #tix-attendees .avatar {
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%; }
+  .page-slug-attendees #tix-attendees .tix-attendee-name {
+    margin-bottom: 10px;
+    font-family: "Roboto Slab";
+    font-size: 22px;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: #364889; }
+  .page-slug-attendees #tix-attendees .tix-attendee-twitter,
+  .page-slug-attendees #tix-attendees .tix-attendee-url {
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-size: 18px;
+    text-decoration: underline; }
 
 #comments {
   margin: 0 auto;
