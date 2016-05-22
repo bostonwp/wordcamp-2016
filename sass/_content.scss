@@ -49,19 +49,79 @@
 		@include uppercase-serif;
 		@include font-size( 1.8 );
 		line-height: 1.32143;
-		
+
 		max-width: $size-post-width;
 	}
-	
+
 	@media ( max-width: 520px ) {
 		.nav-previous,
 		.nav-next {
 			float: none;
 			width: 100%;
 		}
-		
+
 		.nav-previous + .nav-next {
 			margin-top: 20px;
+		}
+	}
+}
+
+// Fancy Headers
+.page-slug-speakers,
+.page-slug-organizers,
+.page-slug-attendees {
+	#content {
+		overflow-x: hidden;
+	}
+
+	#content > .hentry {
+		padding-top: 0;
+	}
+
+	.entry-header {
+		position: relative;
+		height: 100px;
+		text-align: center;
+
+		&:before,
+		&:after {
+			content: '';
+			position: absolute;
+			left: -500px;
+			right: -500px;
+			height: 10px;
+			background: $grey-light;
+		}
+
+		&:before {
+			top: 0;
+		}
+
+		&:after {
+			bottom: 0;
+		}
+	}
+
+	.entry-title {
+		position: absolute;
+		top: 4px;
+		left: calc( 50% - 150px );
+		padding: 18px 60px;
+		width: 300px;
+		text-align: center;
+		background: $blue;
+		color: white;
+
+		&:before {
+			content:' ';
+			position: absolute;
+			top: 0;
+			right: -6px;
+			width: 0;
+			height: 0;
+			border-width: 3px;
+			border-style: solid;
+			border-color: transparent transparent $blue-dark $blue-dark;
 		}
 	}
 }
@@ -69,3 +129,4 @@
 @import 'content/home';
 @import 'content/organizers';
 @import 'content/tickets';
+@import 'content/attendees';

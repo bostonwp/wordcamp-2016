@@ -1,0 +1,43 @@
+.page-slug-attendees .entry-content {
+	margin-top: 0
+}
+
+.page-slug-attendees #tix-attendees {
+	padding-top: 60px;
+
+	li {
+		height: 180px;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.avatar,
+	.tix-field {
+		float: none;
+		display: block;
+		margin: 0;
+	}
+
+	.avatar {
+		display: inline-block;
+		margin-bottom: 15px;
+		width: 75px;
+		height: 75px;
+		border-radius: 50%;
+	}
+
+	.tix-attendee-name {
+		margin-bottom: 10px;
+		font-family: $font-slab;
+		@include font-size( 2.2 );
+		line-height: 1;
+		color: $blue-lighter;
+	}
+
+	.tix-attendee-twitter,
+	.tix-attendee-url {
+		@include font-size( 1.8 );
+		font-size: 18px;
+		text-decoration: underline;
+	}
+}
