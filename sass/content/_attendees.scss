@@ -40,4 +40,16 @@
 		font-size: 18px;
 		text-decoration: underline;
 	}
+
+	@media ( max-width: 520px ) {
+		.tix-columns-3 li {
+			width: 50%;
+		}
+	}
+
+	@media ( max-width: 400px ) {
+		.tix-columns-3 li {
+			width: 100%;
+		}
+	}
 }

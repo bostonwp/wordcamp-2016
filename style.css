@@ -354,6 +354,10 @@ a.cta-button {
     .home #after-header-widgets .widget:nth-of-type(1) {
       margin-top: 60px;
       height: 100px; }
+      @media (max-width: 500px) {
+        .home #after-header-widgets .widget:nth-of-type(1) {
+          margin-top: 20px;
+          height: 140px; } }
 
 #before-content-widgets {
   background: white; }
@@ -380,17 +384,21 @@ a.cta-button {
     margin-left: -10px;
     margin-right: -10px; }
     #primary-sidebar .wcb_widget_sponsors .widget-title {
+      display: none; }
+    #primary-sidebar .wcb_widget_sponsors .sponsor-level {
+      display: inline; }
+    #primary-sidebar .wcb_widget_sponsors .sponsor-level-title {
+      margin: 0 10px 20px;
+      padding-top: 20px;
+      font-family: "Roboto Slab";
       text-transform: uppercase;
       letter-spacing: 1px;
       font-size: 28px;
       font-size: 2.8rem;
-      margin: 0 10px 40px;
       text-align: center;
       color: #283378; }
-    #primary-sidebar .wcb_widget_sponsors .sponsor-level {
-      display: inline; }
-    #primary-sidebar .wcb_widget_sponsors .sponsor-level-title {
-      display: none; }
+      #primary-sidebar .wcb_widget_sponsors .sponsor-level-title:after {
+        content: ' Sponsors'; }
     #primary-sidebar .wcb_widget_sponsors .sponsor-logo {
       float: left;
       position: relative;
@@ -813,6 +821,12 @@ a.cta-button {
     font-size: 1.8rem;
     font-size: 18px;
     text-decoration: underline; }
+  @media (max-width: 520px) {
+    .page-slug-attendees #tix-attendees .tix-columns-3 li {
+      width: 50%; } }
+  @media (max-width: 400px) {
+    .page-slug-attendees #tix-attendees .tix-columns-3 li {
+      width: 100%; } }
 
 #comments {
   margin: 0 auto;
