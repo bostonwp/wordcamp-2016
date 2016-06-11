@@ -95,7 +95,9 @@ label {
   label span {
     color: #A6A8C6 !important; }
 
-.grunion-radio-label {
+.grunion-radio-label,
+.grunion-checkbox-multiple-label,
+.grunion-checkbox-label {
   font-weight: normal !important; }
 
 input[type='button'],
