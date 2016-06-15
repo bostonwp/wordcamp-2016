@@ -894,15 +894,15 @@ a.cta-button {
 .speaker-gravatar-list {
   display: none; }
 
-.cpt-loop.speakers .wcb_speaker {
+.wcorg-speakers .wcorg-speaker {
   position: relative;
   clear: both;
   padding: 140px 0 40px;
   border-bottom: 2px solid #F9F9F9; }
-  .cpt-loop.speakers .wcb_speaker + .wcb_speaker {
+  .wcorg-speakers .wcorg-speaker + .wcorg-speaker {
     margin-top: 40px; }
 
-.cpt-loop.speakers h3 {
+.wcorg-speakers h3 {
   margin: 0 0 15px;
   text-align: center;
   text-transform: none;
@@ -912,7 +912,7 @@ a.cta-button {
   letter-spacing: 0;
   color: #364889; }
 
-.cpt-loop.speakers .avatar {
+.wcorg-speakers .avatar {
   position: absolute;
   top: 0;
   left: calc( 50% - 60px);
@@ -922,7 +922,7 @@ a.cta-button {
   padding: 5px;
   border: 5px solid #283378; }
 
-.cpt-loop.speakers:after {
+.wcorg-speakers:after {
   content: "";
   display: table;
   table-layout: fixed;

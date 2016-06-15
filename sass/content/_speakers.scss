@@ -4,14 +4,14 @@
 	display: none;
 }
 
-.cpt-loop.speakers {
-	.wcb_speaker {
+.wcorg-speakers {
+	.wcorg-speaker {
 		position: relative;
 		clear: both;
 		padding: 140px 0 40px;
 		border-bottom: 2px solid $grey-lightest;
 
-		& + .wcb_speaker {
+		& + .wcorg-speaker {
 			margin-top: 40px;
 		}
 	}
