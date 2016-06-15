@@ -489,6 +489,10 @@ a.cta-button {
     padding: 60px 0;
     max-width: 720px;
     background: white; }
+  .single #content .entry-content {
+    margin-bottom: 60px; }
+  .single #content .entry-meta {
+    font-style: italic; }
   #content .attachment-post-thumbnail {
     margin: 0 auto;
     padding-top: 50px;
