@@ -35,12 +35,6 @@
 	#tix-coupon-container input[type="submit"] {
 		width: 188px;
 	}
-
-	td.tix-column-price::before,
-	td.tix-column-per-ticket::before,
-	.tix-row-total strong::before {
-		content: '$';
-	}
 }
 
 .tix-order-summary {
