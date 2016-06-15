@@ -842,7 +842,7 @@ a.cta-button {
 .wcpt-schedule {
   margin-bottom: 60px; }
   .wcpt-schedule th {
-    padding: 20px 10px;
+    padding: 20px 15px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -865,7 +865,7 @@ a.cta-button {
   .wcpt-schedule td {
     font-size: 14px;
     font-size: 1.4rem;
-    padding: 20px 10px;
+    padding: 20px 15px;
     border-bottom: 2px solid #F9F9F9;
     border-right: 2px solid #F9F9F9; }
   .wcpt-schedule .global-session td {

@@ -14,7 +14,7 @@
 	margin-bottom: 60px;
 
 	th {
-		padding: 20px 10px;
+		padding: 20px 15px;
 		@include uppercase-sans;
 		@include font-size( 1.6 );
 		border-bottom: 2px solid $grey-lightest;
@@ -30,7 +30,7 @@
 
 	td {
 		@include font-size( 1.4 );
-		padding: 20px 10px;
+		padding: 20px 15px;
 		border-bottom: 2px solid $grey-lightest;
 		border-right: 2px solid $grey-lightest;
 	}
