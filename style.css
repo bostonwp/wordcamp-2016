@@ -839,6 +839,9 @@ a.cta-button {
     padding-left: 20px;
     padding-right: 20px; } }
 
+.page-slug-schedule .entry-content {
+  margin-top: 60px; }
+
 .wcpt-schedule {
   margin-bottom: 60px; }
   .wcpt-schedule th {
