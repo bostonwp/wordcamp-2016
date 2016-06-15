@@ -103,7 +103,7 @@
 		}
 	}
 
-	.entry-title {
+	.entry-header .entry-title {
 		position: absolute;
 		top: 4px;
 		left: calc( 50% - 150px );
@@ -132,3 +132,4 @@
 @import 'content/tickets';
 @import 'content/attendees';
 @import 'content/schedule';
+@import 'content/speakers';

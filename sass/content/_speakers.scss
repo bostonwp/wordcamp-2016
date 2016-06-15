@@ -1,0 +1,44 @@
+// .page-slug-speakers {}
+
+.speaker-gravatar-list {
+	display: none;
+}
+
+.cpt-loop.speakers {
+	.wcb_speaker {
+		position: relative;
+		clear: both;
+		padding: 140px 0 40px;
+		border-bottom: 2px solid $grey-lightest;
+
+		& + .wcb_speaker {
+			margin-top: 40px;
+		}
+	}
+
+	h3 {
+		margin: 0 0 15px;
+		text-align: center;
+		text-transform: none;
+		@include font-size( 2.2 );
+		line-height: 1;
+		letter-spacing: 0;
+		color: $blue-lighter;
+	}
+
+	.avatar {
+		position: absolute;
+		top: 0;
+		left: calc( 50% - 60px );
+		border-radius: 50%;
+		display: block;
+		margin: 0 auto 15px;
+		padding: 5px;
+		border: 5px solid $blue;
+	}
+
+	&:after {
+		@include clearfix;
+		@include clearfix-after;
+	}
+}
