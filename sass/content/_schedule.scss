@@ -17,6 +17,7 @@
 		padding: 20px 10px;
 		@include uppercase-sans;
 		@include font-size( 1.6 );
+		border-right: 2px solid $grey-lightest;
 		border-bottom: 2px solid $grey-lightest;
 		color: $blue;
 	}
@@ -32,6 +33,7 @@
 		@include font-size( 1.4 );
 		padding: 20px 10px;
 		border-bottom: 2px solid $grey-lightest;
+		border-right: 2px solid $grey-lightest;
 	}
 
 	.global-session td {

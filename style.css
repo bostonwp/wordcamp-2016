@@ -850,6 +850,7 @@ a.cta-button {
     -moz-osx-font-smoothing: grayscale;
     font-size: 16px;
     font-size: 1.6rem;
+    border-right: 2px solid #F9F9F9;
     border-bottom: 2px solid #F9F9F9;
     color: #283378; }
   .wcpt-schedule .wcpt-session-type-session:before {
@@ -866,7 +867,8 @@ a.cta-button {
     font-size: 14px;
     font-size: 1.4rem;
     padding: 20px 10px;
-    border-bottom: 2px solid #F9F9F9; }
+    border-bottom: 2px solid #F9F9F9;
+    border-right: 2px solid #F9F9F9; }
   .wcpt-schedule .global-session td {
     text-align: center; }
     .wcpt-schedule .global-session td.wcpt-time {
