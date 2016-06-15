@@ -1,0 +1,67 @@
+.page-slug-schedule {
+	#content > .hentry {
+		max-width: 880px;
+	}
+	@media (max-width: 900px) {
+		#content {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
+}
+
+.wcpt-schedule {
+	margin-bottom: 60px;
+
+	th {
+		padding: 20px 10px;
+		@include uppercase-sans;
+		@include font-size( 1.6 );
+		border-bottom: 2px solid $grey-lightest;
+		color: $blue;
+	}
+
+	.wcpt-session-type-session:before {
+		border: none;
+		@include uppercase-sans;
+		@include font-size( 1.6 );
+		color: $blue;
+	}
+
+	td {
+		@include font-size( 1.4 );
+		padding: 20px 10px;
+		border-bottom: 2px solid $grey-lightest;
+	}
+
+	.global-session td {
+		text-align: center;
+
+		&.wcpt-time {
+			text-align: left;
+		}
+	}
+
+	.wcpt-session-title {}
+
+	.wcpt-session-speakers {
+		display: block;
+		font-style: italic;
+	}
+
+	@media screen and (min-width: 701px) {
+		.wcb-track-design,
+		.wcb-track-developers,
+		.wcb-track-intro-wp-in-higher-education,
+		.wcb-track-userswriters,
+		.wcb-track-businessentrepeneurs,
+		.wcb-session-intro-to-contributor-day {
+			width: 30%
+		}
+	}
+}
+// .wcpt-col-time
+// .wcpt-track-name
+//
+
+//

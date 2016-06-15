@@ -517,17 +517,20 @@ a.cta-button {
 
 .page-slug-speakers #content,
 .page-slug-organizers #content,
-.page-slug-attendees #content {
+.page-slug-attendees #content,
+.page-slug-schedule #content {
   overflow-x: hidden; }
 
 .page-slug-speakers #content > .hentry,
 .page-slug-organizers #content > .hentry,
-.page-slug-attendees #content > .hentry {
+.page-slug-attendees #content > .hentry,
+.page-slug-schedule #content > .hentry {
   padding-top: 0; }
 
 .page-slug-speakers .entry-header,
 .page-slug-organizers .entry-header,
-.page-slug-attendees .entry-header {
+.page-slug-attendees .entry-header,
+.page-slug-schedule .entry-header {
   position: relative;
   height: 100px;
   text-align: center; }
@@ -535,7 +538,9 @@ a.cta-button {
   .page-slug-organizers .entry-header:before,
   .page-slug-organizers .entry-header:after,
   .page-slug-attendees .entry-header:before,
-  .page-slug-attendees .entry-header:after {
+  .page-slug-attendees .entry-header:after,
+  .page-slug-schedule .entry-header:before,
+  .page-slug-schedule .entry-header:after {
     content: '';
     position: absolute;
     left: -500px;
@@ -544,16 +549,19 @@ a.cta-button {
     background: #eee; }
   .page-slug-speakers .entry-header:before,
   .page-slug-organizers .entry-header:before,
-  .page-slug-attendees .entry-header:before {
+  .page-slug-attendees .entry-header:before,
+  .page-slug-schedule .entry-header:before {
     top: 0; }
   .page-slug-speakers .entry-header:after,
   .page-slug-organizers .entry-header:after,
-  .page-slug-attendees .entry-header:after {
+  .page-slug-attendees .entry-header:after,
+  .page-slug-schedule .entry-header:after {
     bottom: 0; }
 
 .page-slug-speakers .entry-title,
 .page-slug-organizers .entry-title,
-.page-slug-attendees .entry-title {
+.page-slug-attendees .entry-title,
+.page-slug-schedule .entry-title {
   position: absolute;
   top: 4px;
   left: calc( 50% - 150px);
@@ -564,7 +572,8 @@ a.cta-button {
   color: white; }
   .page-slug-speakers .entry-title:before,
   .page-slug-organizers .entry-title:before,
-  .page-slug-attendees .entry-title:before {
+  .page-slug-attendees .entry-title:before,
+  .page-slug-schedule .entry-title:before {
     content: ' ';
     position: absolute;
     top: 0;
@@ -829,6 +838,58 @@ a.cta-button {
   @media (max-width: 400px) {
     .page-slug-attendees #tix-attendees .tix-columns-3 li {
       width: 100%; } }
+
+.page-slug-schedule #content > .hentry {
+  max-width: 880px; }
+
+@media (max-width: 900px) {
+  .page-slug-schedule #content {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+.wcpt-schedule {
+  margin-bottom: 60px; }
+  .wcpt-schedule th {
+    padding: 20px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    font-size: 1.6rem;
+    border-bottom: 2px solid #F9F9F9;
+    color: #283378; }
+  .wcpt-schedule .wcpt-session-type-session:before {
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    font-size: 1.6rem;
+    color: #283378; }
+  .wcpt-schedule td {
+    font-size: 14px;
+    font-size: 1.4rem;
+    padding: 20px 10px;
+    border-bottom: 2px solid #F9F9F9; }
+  .wcpt-schedule .global-session td {
+    text-align: center; }
+    .wcpt-schedule .global-session td.wcpt-time {
+      text-align: left; }
+  .wcpt-schedule .wcpt-session-speakers {
+    display: block;
+    font-style: italic; }
+  @media screen and (min-width: 701px) {
+    .wcpt-schedule .wcb-track-design,
+    .wcpt-schedule .wcb-track-developers,
+    .wcpt-schedule .wcb-track-intro-wp-in-higher-education,
+    .wcpt-schedule .wcb-track-userswriters,
+    .wcpt-schedule .wcb-track-businessentrepeneurs,
+    .wcpt-schedule .wcb-session-intro-to-contributor-day {
+      width: 30%; } }
 
 #comments {
   margin: 0 auto;
