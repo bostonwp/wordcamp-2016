@@ -78,7 +78,8 @@
 .page-slug-speakers,
 .page-slug-organizers,
 .page-slug-attendees,
-.page-slug-schedule {
+.page-slug-schedule,
+.single-wcb_speaker {
 	#content {
 		overflow-x: hidden;
 	}
@@ -132,6 +133,13 @@
 			border-style: solid;
 			border-color: transparent transparent $blue-dark $blue-dark;
 		}
+	}
+}
+
+.single-wcb_speaker {
+	.entry-header .entry-title {
+		left: calc( 50% - 250px );
+		width: 500px;
 	}
 }
 
