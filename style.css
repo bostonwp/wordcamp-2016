@@ -957,8 +957,10 @@ a.cta-button {
 .single-wcb_speaker .post-1301 .speaker-avatar {
   display: none; }
 
-.wcorg-speakers .wcorg-speaker-diane-danielson .avatar {
-  display: none; }
+.wcorg-speakers .wcorg-speaker-diane-danielson {
+  padding-top: 0; }
+  .wcorg-speakers .wcorg-speaker-diane-danielson .avatar {
+    display: none; }
 
 #comments {
   margin: 0 auto;
