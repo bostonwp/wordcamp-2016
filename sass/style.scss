@@ -3,9 +3,11 @@
  * Template: wordcamp-base-v2
  */
 
+// The following two imports are not inlined by Gulp, but they are removed by the remote CSS tool.
 @import '../wordcamp-base-v2/style.css';
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic|Roboto+Slab);
 
+// The rest of these are inlined by Gulp.
 @import 'variables';
 @import 'mixins';
 @import 'typography';
