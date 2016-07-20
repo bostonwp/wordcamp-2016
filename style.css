@@ -413,8 +413,7 @@ a.cta-button {
         position: absolute;
         left: 50%;
         top: 50%;
-        -webkit-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
         max-width: 80%; }
       @media (max-width: 750px) {
         #primary-sidebar .wcb_widget_sponsors .sponsor-logo {
@@ -500,7 +499,8 @@ a.cta-button {
     @media (max-width: 640px) {
       #content .attachment-post-thumbnail {
         max-width: 100%; } }
-  #content .post-navigation {
+  #content .post-navigation,
+  #content .paging-navigation {
     margin: 40px auto;
     font-family: "Roboto Slab";
     text-transform: uppercase;
@@ -509,6 +509,9 @@ a.cta-button {
     font-size: 1.8rem;
     line-height: 1.32143;
     max-width: 720px; }
+  #content .paging-navigation {
+    padding: 0 20px;
+    max-width: 1100px; }
   @media (max-width: 520px) {
     #content .nav-previous,
     #content .nav-next {
