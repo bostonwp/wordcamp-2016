@@ -13,6 +13,10 @@ body {
   color: #414453;
   background: #eee; }
 
+hr {
+  height: 2px;
+  background-color: #eee; }
+
 p {
   margin: 0 0 15px; }
 

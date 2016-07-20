@@ -10,6 +10,11 @@ body {
 	background: $grey-light;
 }
 
+hr {
+	height: 2px;
+	background-color: $grey-light;
+}
+
 p {
 	margin: 0 0 15px;
 }
@@ -90,7 +95,7 @@ label {
 	display: block;
 	margin-bottom: 10px;
 	font-weight: bold;
-	
+
 	span {
 		color: $blue-light !important;
 	}
