@@ -39,6 +39,8 @@
 		@include font-size( 1.8 );
 		font-size: 18px;
 		text-decoration: underline;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 
 	@media ( max-width: 520px ) {

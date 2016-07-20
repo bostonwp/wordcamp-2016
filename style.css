@@ -845,7 +845,9 @@ a.cta-button {
     font-size: 18px;
     font-size: 1.8rem;
     font-size: 18px;
-    text-decoration: underline; }
+    text-decoration: underline;
+    overflow: hidden;
+    text-overflow: ellipsis; }
   @media (max-width: 520px) {
     .page-slug-attendees #tix-attendees .tix-columns-3 li {
       width: 50%; } }
