@@ -879,6 +879,14 @@ a.cta-button {
     font-size: 1.6rem;
     border-bottom: 2px solid #F9F9F9;
     color: #283378; }
+  .wcpt-schedule .wcpt-track-description {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    font-size: 1.4rem;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #414453; }
   .wcpt-schedule .wcpt-session-type-session:before {
     border: none;
     font-weight: bold;

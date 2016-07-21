@@ -25,6 +25,15 @@
 		color: $blue;
 	}
 
+	.wcpt-track-description {
+		display: block;
+		font-weight: normal;
+		@include font-size( 1.4 );
+		text-transform: none;
+		letter-spacing: 0;
+		color: $color-text;
+	}
+
 	.wcpt-session-type-session:before {
 		border: none;
 		@include uppercase-sans;
